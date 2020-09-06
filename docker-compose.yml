@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     environment:
       - MY_SOURCE=https://github.com/othalla/plex_exporter
-      - PLEX_HOST=http://192.168.10.25
+      - PLEX_HOST=192.168.10.25
       - PLEX_PORT=32400
       - PLEX_API_KEY=x
       - SERVE_PORT=9090
